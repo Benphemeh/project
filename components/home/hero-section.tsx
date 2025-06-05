@@ -9,21 +9,28 @@ import { ArrowRight } from "lucide-react";
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
+      {
+      image: "/pork-image.jpg",
+      title: "Premium Quality Pork",
+      description: "Freshly processed pork from trusted local farmers, delivered within hours of processing.",
+    },
     {
       image: "https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Farm Fresh Products",
       description: "Get high-quality pigs, pork, foodstuff, and drinks delivered straight to your doorstep.",
     },
+
     {
-      image: "https://www.carniceriacorbacho.com/wp-content/uplo…2018/01/carne-de-cerdo-carniceria-en-marbella.jpg",
-      title: "Premium Quality Pork",
-      description: "Freshly processed pork from trusted local farmers, delivered within hours of processing.",
-    },
-    {
-      image: "https://images.pexels.com/photos/1927542/pexels-photo-1927542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "provisions.png",
       title: "Complete Provision Store",
       description: "From foodstuff to drinks, get everything you need in a single order with same-day delivery.",
     },
+    {
+      image: "/pig-image.jpg",
+      title: "Trusted Local Farmers",
+      description: "We partner with local farmers to ensure you get the freshest and highest quality products.",
+    },
+   
   ];
 
   useEffect(() => {
