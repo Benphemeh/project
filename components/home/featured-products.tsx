@@ -15,7 +15,7 @@ const mockProducts = {
     {
       id: 'pig-1',
       name: 'Hampshire Pig (Medium)',
-      image: 'https://images.pexels.com/photos/6879777/pexels-photo-6879777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: '/hampshire-boar.jpg',
       price: 45000,
       category: 'pigs',
       breed: 'Hampshire',
@@ -35,7 +35,7 @@ const mockProducts = {
     {
       id: 'pig-3',
       name: 'Duroc Pig (Small)',
-      image: 'https://images.pexels.com/photos/162276/pig-domestic-pig-suckler-sow-162276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: '/duroc.jpg',
       price: 30000,
       category: 'pigs',
       breed: 'Duroc',
